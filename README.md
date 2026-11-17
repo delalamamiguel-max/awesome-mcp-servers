@@ -555,7 +555,7 @@ There is no application deployment or release pipeline in the tracked files. Pub
 
 ## Risks and guardrails
 
-Retain the original security warning: installed MCP servers may execute code or expose data with host permissions. A directory listing is not authorization or a security assessment. Preserve attribution and links; no standalone LICENSE file is tracked, so do not infer licensing permission for this directory or linked projects.
+Retain the original security warning: installed MCP servers may execute code or expose data with host permissions. A directory listing is not authorization or a security assessment. Preserve the CC0 dedication and Stephen Akinyemi attribution in the upstream License section above. No standalone LICENSE file is tracked; the dedication is documented in this README. Linked projects have their own licenses, which are not determined by this directory’s CC0 dedication.
 
 ## Related documentation
 
