@@ -519,3 +519,44 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 To the extent possible under law, [Stephen Akinyemi](https://github.com/appcypher) has waived all copyright and related or neighboring rights to this work.
+
+
+---
+
+# Owned checkout guide
+
+## Purpose and status
+
+This owned reference fork preserves appcypher’s curated MCP directory. It is a Markdown link collection, not a server implementation, installed tool inventory or validation of listed projects. Existing production-readiness and official-implementation labels are upstream catalog claims.
+
+## Repository map
+
+The tracked repository consists of this README, [CONTRIBUTING.md](CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md). The README groups external server implementations, clients and utilities; there is no local application source, dependency manifest or build script.
+
+## Architecture and integrations
+
+Links point to independently maintained MCP clients, servers and services. Their credentials, transports, dependencies and read/write permissions belong to those projects, not this directory. Reading or cloning this catalog does not connect any listed service.
+
+## Setup and environments
+
+No application environment or dependency installation is needed to inspect this directory. For a future selected server, inspect its exact source/version, license and setup separately before enabling it. No owner credentials, server configuration or installed state are recorded here.
+
+## Safe commands
+
+For this documentation review, use only local inspection such as `git status --short`, `git ls-files`, `git diff -- README.md` and `git diff --check`. Read referenced scripts as text; do not install dependencies, execute examples, authenticate, run tests or publish.
+
+## Testing and validation
+
+Validation for this change is limited to Markdown structure, added local links, whitespace and preservation. Existing external links, badges, availability, security labels and compatibility were not fetched or tested. There is no tracked application test suite in this snapshot.
+
+## Deployment and rollback
+
+There is no application deployment or release pipeline in the tracked files. Publishing a catalog change and installing a linked server are different actions. A documentation revert restores text; it cannot uninstall servers or reverse actions they performed. No publication took place.
+
+## Risks and guardrails
+
+Retain the original security warning: installed MCP servers may execute code or expose data with host permissions. A directory listing is not authorization or a security assessment. Preserve the CC0 dedication and Stephen Akinyemi attribution in the upstream License section above. No standalone LICENSE file is tracked; the dedication is documented in this README. Linked projects have their own licenses, which are not determined by this directory’s CC0 dedication.
+
+## Related documentation
+
+Read [contribution guidance](CONTRIBUTING.md) and [code of conduct](CODE_OF_CONDUCT.md), then consult each selected project’s own documentation in the catalog above. No linked implementation was installed or invoked.
